@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    div {
+      border: 1px solid red;
+      margin: 10px;
+      padding: 6px;
+      min-height: 12px;
+    }
+
+    button {
+      padding: 10px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <main id="main">My ID is "main"!</main>
+  <br />
+  <form id="tweet-form">
+    <label>Input:</label>
+    <textarea name="" id="input" cols="50" rows="5"></textarea>
+    <button disabled id="tweet" type="submit">Post</button>
+  </form>
+  <br />
+  <div>
+    <p id="log">Total length of text in input: 0</p>
+  </div>
+  <div id="tweets">
+    <h3>Tweets listing!</h3>
+    <ul id="listing">
+
+    </ul>
+  </div>
+
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
